@@ -1,0 +1,45 @@
+.hero-AppPro h1 {
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+
+.procontent-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    max-width: 100%;
+}
+
+.text-box {
+    flex: 1;
+    padding: 12px;
+    margin-right: 16px;
+    border: 1px solid black;
+    border-radius: 23px;
+}
+
+ #text-box-1,
+ #text-box-2,
+ #text-box-3
+ {
+    background-color: tomato;
+}
+ img{
+    max-width: 250px;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 640px){
+    .content-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        max-width: 100%;
+        flex-direction: column;
+    }
+}

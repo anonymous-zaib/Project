@@ -1,0 +1,13 @@
+.privacy-policy {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .privacy-policy h1, h2, h3 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .privacy-policy p {
+    margin-bottom: 15px;
+  }

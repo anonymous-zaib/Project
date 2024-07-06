@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+.react-header {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,77,1) 44%, rgba(27,1,11,1) 100%);
+    color: white;
+    padding: 1rem;
+}
+
+.react-nav {
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.react-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.react-nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.react-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.react-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+   
+}
+
+.react-section {
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,77,1) 44%, rgba(27,1,11,1) 100%); */
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    flex: 1 1 300px;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.react-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+    border-radius: 11px;
+    padding: 12px;
+    /* padding: 1rem; */
+}
+.react-card p{
+    color: black;
+    font-size: 16px;
+}
+
+.react-card h3 {
+    margin: 0 0 0.5rem;
+}
+
+ #react-profile h2{
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+    border-radius: 11px;
+    padding: 12px;
+}
+#react-profile p{
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+    border-radius: 11px;
+    padding: 12px;
+}
+#react-profile button{
+    width: 150px;
+}
+
+#react-overview h2{
+    color: black;
+}
+
+#react-settings h2{
+    color: black;
+}
+
+#react-settings p{
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    border-radius: 11px;
+    padding: 12px;
+}
+
+#react-profile #prof-btn{
+    color: black;
+    background-color: tomato;
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+    border-radius: 11px;
+    padding: 12px;
+}

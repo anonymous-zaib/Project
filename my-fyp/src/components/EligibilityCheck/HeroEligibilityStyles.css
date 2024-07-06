@@ -1,0 +1,138 @@
+
+.eligi-form-container{
+  padding-top: 100px;
+}
+.eligibility-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.eligibility-form-section {
+  margin-bottom: 1rem;
+}
+
+.eligibility-form-section h2 {
+  margin-top: 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+#eligibility-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+}
+
+#eligibility-btn:hover {
+  background-color: rgb(166, 30, 6);
+}
+/* Styling the form sections */
+.eligibility-form-section {
+  margin-bottom: 20px;
+}
+
+.eligibility-form-section h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.eligibility-form-section label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.eligibility-form-section input,
+.eligibility-form-section select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styling the submit button */
+#eligibility-btn {
+  background-color: tomato;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#eligibility-btn:hover {
+  background-color: tomato;
+}
+
+/* Styling the loan details container */
+.loan-details-container {
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the eligibility message */
+.loan-details-container h2 {
+  color: tomato;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling the loan list */
+.loan-details-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.loan-details-container ul li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.loan-details-container ul li p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.loan-details-container ul li a {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 8px 12px;
+  background-color: tomato;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.loan-details-container ul li a:hover {
+  background-color: #0056b3;
+}

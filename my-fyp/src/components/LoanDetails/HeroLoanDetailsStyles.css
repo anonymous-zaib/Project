@@ -1,0 +1,72 @@
+.container-details {
+    width: 100%;
+    padding-top: 120px;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.content-container .box {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+.content-container .box h2 span{
+    font-size: 35px;
+}
+
+.bad-credit{
+    display: flex;
+    width: 100%;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,77,1) 44%, rgba(27,1,11,1) 100%);
+}
+
+.bad-credit .content-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.bad-credit-btn button{
+    width: 140px;
+    margin-top: 20px;
+}
+
+.bad-credit .bad-credit-img{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bad-credit .bad-credit-img img{
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 640px){
+    .content-container .box{
+        width: 100%;
+    }
+
+    .bad-credit{
+        flex-direction: column;
+    }
+
+    .bad-credit .bad-credit-img img{
+        width: 50%;
+    }
+}

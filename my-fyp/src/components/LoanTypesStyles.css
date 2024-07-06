@@ -1,0 +1,65 @@
+.type-loan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 90vh; */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.type-loan-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.loan-card {
+    /* flex: 0 1 300px; */
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loan-card img {
+    width: 50%;
+    padding: 20px;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+@media screen and (max-width: 640px) {
+    .type-loan {
+        width: 100%;
+    }
+
+    .type-loan-cards {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 30px;
+        overflow: hidden;
+        gap: 18px;
+    }
+
+    .loan-card {
+        width: 320px;
+        overflow: hidden;
+        margin: 0 10px;
+    }
+}

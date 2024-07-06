@@ -1,0 +1,16 @@
+
+.grid-container {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  

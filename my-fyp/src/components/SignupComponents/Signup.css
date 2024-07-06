@@ -1,0 +1,47 @@
+/* SIgn up css code  */
+.new-signup-form{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,77,1) 44%, rgba(27,1,11,1) 100%);
+}
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 100px;
+    /* padding-bottom: 50px; */
+    
+  }
+  
+  .sign-up-form{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: white;
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .signup-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5945;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* button:hover{
+    background-color: #2980b9;
+  } */

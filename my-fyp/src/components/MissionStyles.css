@@ -1,0 +1,57 @@
+.main-mission-container {
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    padding-top: 30px;
+}
+
+.mission-container h1 {
+    padding-top: 30px;
+}
+
+.mission-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.mission-card {
+    width: 300px;
+    margin: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ff5945;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mission-card:hover {
+    transform: scale(1.05);
+}
+
+.mission-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.mission-card-content {
+    padding: 20px;
+}
+
+.mission-card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.mission-card-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 640px) {
+    .mission-card{
+        margin: 10px;
+    }
+}

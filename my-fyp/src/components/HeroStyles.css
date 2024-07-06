@@ -1,0 +1,47 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,77,1) 44%, rgba(27,1,11,1) 100%);
+    z-index: 1;
+}
+.Content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    
+}
+
+.Content h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.Content .btn-hero button {
+    margin: 1rem 0.2rem;
+    width: 120px;
+}
+
+#btn-2 {
+    background: transparent;
+    border: 1px solid #ff5945;
+}
+
+@media screen and (max-width: 1040px){
+    .Content h1 {
+        font-size: 25px;
+    }
+    
+    .Content .btn-hero button {
+        margin: 1rem 0.2rem;
+        width: 120px;
+        
+    }
+    
+    #btn-2 {
+        background: transparent;
+        border: 1px solid #ff5945;
+    }
+    
+}

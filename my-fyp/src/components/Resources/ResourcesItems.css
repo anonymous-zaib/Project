@@ -1,0 +1,18 @@
+.main-resources-item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-resources-item .resources-container{
+    font-size: 20px;
+    padding: 0 60px;
+}
+
+.resources-container .btn{
+    width: 140px;
+    border-radius: 10px;
+    margin: 10px;
+}
